@@ -16,7 +16,7 @@ public class TestController {
 */
     @RequestMapping("/from")
     public String from() {
-        return "this.from";
+        return "123";
     }
 }
 
