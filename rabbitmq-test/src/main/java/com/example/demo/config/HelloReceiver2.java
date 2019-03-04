@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * Created by Administrator on 2019/3/4.
  */
 @Component
-@RabbitListener(queues = "hello")
+@RabbitListener(queues = "fanout.A")
 public class HelloReceiver2 {
     @RabbitHandler
     public void process(String hello) {
