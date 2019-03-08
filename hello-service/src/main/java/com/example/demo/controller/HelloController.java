@@ -20,6 +20,6 @@ public class HelloController {
         logger.info("/hello, host:" + instance.getHost()+",service id:" +
                 instance.getServiceid());
 
-        return "Hello Wor1ld";
+        return "Hello Wo1r1ld";
     }
 }
